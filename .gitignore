@@ -1,0 +1,7 @@
+# files
+.DS_Store
+
+# dirs
+.idea/
+.vscode/
+tmp/
