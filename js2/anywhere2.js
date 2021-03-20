@@ -3074,18 +3074,18 @@ G.def("ga", function() {
             mdiv: -1
         }, G.loadScript(d, function() {
             e = 2, bShare.init(), window.BS_PURL_MAP = {
-                sinaminiblog: "http://api.bshare.cn/share/sinaminiblog?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}",
-                renren: "http://api.bshare.cn/share/renren?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}",
-                douban: "http://api.bshare.cn/share/douban?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}",
-                qqmb: "http://api.bshare.cn/share/qqmb?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}",
-                qzone: "http://api.bshare.cn/share/qzone?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}"
+//                sinaminiblog: "http://api.bshare.cn/share/sinaminiblog?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}",
+//                renren: "http://api.bshare.cn/share/renren?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}",
+//                douban: "http://api.bshare.cn/share/douban?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}",
+//                qqmb: "http://api.bshare.cn/share/qqmb?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}",
+//                qzone: "http://api.bshare.cn/share/qzone?url=${URL}&title=${TITLE}&summary=${CONTENT}&pic=${IMG}"
             };
             for (var a = 0, b = f.length; a < b; a++) f[a] && f[a]()
         }))
     }
     "use strict";
-    var a = '分享到:                    <a data-type="sinaminiblog" class="gui-share-xl" href="#" title="分享到新浪微博">新浪微博</a>                    <a data-type="renren" class="gui-share-rr" href="#" title="分享到人人">人人</a>                    <a data-type="douban" class="gui-share-db" href="#" title="分享到豆瓣">豆瓣</a>                    <a data-type="qzone" class="gui-share-qq" href="#" title="分享到QQ空间">QQ空间</a>                    <a data-type="qqmb" class="gui-share-tqq" href="#" title="分享到腾讯微博">腾讯微博</a>',
-        b = '分享到：                            <a data-type="douban" class="gicon-share-db" href="#" title="分享到豆瓣">豆瓣</a>                            <a data-type="sinaminiblog" class="gicon-share-sina" href="#" title="分享到新浪微博">新浪微博</a>                            <a data-type="qzone" class="gicon-share-qzone" href="#" title="分享到QQ空间">QQ空间</a>                            <a data-type="weixin" class="gicon-share-weixin" href="#" title="分享到微信">微信</a>                            <a data-type="qqmb" class="gicon-share-qqmb" href="#" title="分享到腾讯微博">腾讯微博</a>                            <div class="counter"><b><s></s></b><span class="BSHARE_COUNT share_counter">0</span></div>',
+    var a = '分享到: <a data-type="" class="gui-share-xl" href="#" title="分享到新浪微博">新浪微博</a> <a data-type="" class="gui-share-rr" href="#" title="分享到人人">人人</a> <a data-type="" class="gui-share-db" href="#" title="分享到豆瓣">豆瓣</a> <a data-type="" class="gui-share-qq" href="#" title="分享到QQ空间">QQ空间</a> <a data-type="" class="gui-share-tqq" href="#" title="分享到腾讯微博">腾讯微博</a>',
+        b = '分享到：<a data-type="" class="gicon-share-db" href="#" title="分享到豆瓣">豆瓣</a> <a data-type="" class="gicon-share-sina" href="#" title="分享到新浪微博">新浪微博</a> <a data-type="" class="gicon-share-qzone" href="#" title="分享到QQ空间">QQ空间</a> <a data-type="" class="gicon-share-weixin" href="#" title="分享到微信">微信</a> <a data-type="" class="gicon-share-qqmb" href="#" title="分享到腾讯微博">腾讯微博</a><div class="counter"><b><s></s></b><span class="BSHARE_COUNT share_counter">0</span></div>',
         c = "9dd5aa8d-bbe1-4a9e-ac82-6e6002ca17fa",
         d = "http://static.bshare.cn/b/buttonLite.js",
         e = 0,
@@ -3607,7 +3607,9 @@ G.def("ga", function() {
             title: "果壳任意门",
             summary: "推荐@果壳任意门 http://gate.guokr.com/ ，是真的有任意门可以跳进去的兴趣导航站。无论你是学霸、极客、宅男、乐活族、文艺范、小清新、背包客还是运动爱好者，都能找到喜欢的去处。",
             url: location.href
-        }, "9d09b145-a50a-4d8d-b963-0d938a77d7ad", '<a data-type="sinaminiblog" class="top-share-xl" href="#" title="分享到新浪微博">新浪微博</a>             <a data-type="renren" class="top-share-rr" href="#" title="分享到人人">人人</a>             <a data-type="douban" class="top-share-db" href="#" title="分享到豆瓣">豆瓣</a>             <a data-type="qzone" class="top-share-qq" href="#" title="分享到QQ空间">QQ空间</a>             <a data-type="qqmb" class="top-share-tqq" href="#" title="分享到腾讯微博">腾讯微博</a>');
+        },
+        "9d09b145-a50a-4d8d-b963-0d938a77d7ad",
+        '<a data-type="" class="top-share-xl" href="#" title="分享到新浪微博">新浪微博</a> <a data-type="" class="top-share-rr" href="#" title="分享到人人">人人</a> <a data-type="" class="top-share-db" href="#" title="分享到豆瓣">豆瓣</a> <a data-type="" class="top-share-qq" href="#" title="分享到QQ空间">QQ空间</a> <a data-type="" class="top-share-tqq" href="#" title="分享到腾讯微博">腾讯微博</a>');
         var c = $("#doorsKey"),
             d = $("#recommendBoard"),
             k = $("#bottom"),
@@ -3633,7 +3635,8 @@ G.def("ga", function() {
                     var b = $(a.attr("href")).next().find("a"),
                         d = e(b),
                         f = d.attr("href");
-                    _gaq.push(["_trackEvent", "AnywhereDoor", "OpenAnyDoor", d.text()]), $.browser.msie ? (n = !0, d[0].click()) : window.open(f, "_blank"), q.closeDoor(c)
+                    _gaq.push(["_trackEvent", "AnywhereDoor", "OpenAnyDoor", d.text()]),
+                    $.browser.msie ? (n = !0, d[0].click()) : q.closeDoor(c)
                 },
                 showMore: function(b) {
                     q.closeMore();
