@@ -2,12 +2,12 @@
 
 ## 说明
 
-+ 【备份】果壳任意门 - 发现你最爱的网站 https://hantang.github.io/site-guokr-gate/
++ 【备份】果壳任意门 - 发现你最爱的网站 <https://hantang.github.io/nav-guokr/>
 
 + 站点截图：
 ![果壳任意门](./snapshot.png)
 
-+ 所有站点列表（其中站点已经失效）:
++ 所有站点列表（其中部分网站可能已经失效）
 [site-list.md](./site-list.md)
 
 ## 来源
